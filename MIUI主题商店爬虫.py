@@ -50,8 +50,8 @@ def getTheme(themeid):
 	# print("　　评分: " + score)
 	# print("　　售价: " + price)
 
-	if html.download(downloadlink,paths.startpath() + "/MIUI主题商店爬虫/下载/" + title + " " + update + ".mtz"):
-		# zips.unzip(paths.startpath() + "/MIUI主题商店爬虫/下载/" + title + " " + update + ".mtz",paths.startpath() + "/下载测试/" + title + " " + update)
+	if html.download(downloadlink,paths.startpath() + "/下载/" + title + " " + update + ".mtz"):
+		# zips.unzip(paths.startpath() + "/下载/" + title + " " + update + ".mtz",paths.startpath() + "/下载测试/" + title + " " + update)
 		pass
 	
 	# print("")
